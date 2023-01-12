@@ -2,8 +2,6 @@ from pathlib import Path
 
 folder1 = Path.home() / "my_folder"
 folder1.mkdir(exist_ok=True)
-# new_file = file / "file1.txt"
-# new_file.touch(exist_ok=True)
 docs = [
     folder1 / "file1.txt",
     folder1 / "file2.txt",
